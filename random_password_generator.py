@@ -2,10 +2,9 @@ import string
 import random
 
 letters = string.ascii_letters
-#punctuations = string.punctuation
 numbers = string.digits
 
-def password_generator(length = 8):
+def password_generator():
     printable = f'{letters}{numbers}'
     printable = list(printable)
     random.shuffle(printable)
