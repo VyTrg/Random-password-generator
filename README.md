@@ -1,0 +1,1 @@
+Random password generator include: letters(lowercase & uppercase), numbers. Length: 8
